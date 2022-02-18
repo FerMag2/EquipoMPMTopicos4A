@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "PruebasEquipo",
+        "Ejercicios1PPablo",
         "Ejercicios1PMagdiel/Ejercicio2",
         "Ejercicios1PMagdiel",
-        "Ejercicios1PPablo"
+        "Ejercicios1PMartin"
     ]
 }
