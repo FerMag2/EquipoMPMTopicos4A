@@ -12,5 +12,8 @@ public class Hola {
         System.out.println("hola visual");
         System.out.println("hola Magdiel");
         System.out.println("hola visual");
+        System.out.println("hola visual");
+        System.out.println("hola Magdiel");
+        System.out.println("hola visual");
     }
 }
