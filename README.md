@@ -5,8 +5,7 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 # Pablo Jesus Che Martinez 7252
 # Indice
 ## Ejercicios Fernando Magdiel Chi Canul 7244
-### Ejercicio 1
-https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio1
+[Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio1)
 ### Ejercicio 2
 https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio2
 ### Ejercicio 3
