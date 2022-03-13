@@ -16,7 +16,7 @@ https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejer
 ### Practica 1
 https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Practica1Magdiel
 ### Practica 2
-https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Practica1Magdiel
+https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Practica2Magdiel
 ### Practica 3
 ## Ejercicios Martin Fidel Martinez Uc 7253
 ### Ejercicio 1
