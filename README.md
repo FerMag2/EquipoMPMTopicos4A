@@ -25,7 +25,7 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Practica2Magdiel)    
 [Practica 2 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/C%23)            
 [Practica 3](https://github.com/FerMag2/MagdielEjercicios/tree/main/Practica3/src)    
-[Practica 3 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/Practica3/src)  
+[Practica 3 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/CodigoPractica3)  
 ## Ejercicios Martin Fidel Martinez Uc 7253
 ### Ejercicio 1
 ### Ejercicio 2
