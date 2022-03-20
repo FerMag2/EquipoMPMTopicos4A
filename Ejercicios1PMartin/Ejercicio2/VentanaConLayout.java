@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowAdapter;
+import java.awt.event.WindowListener;
 
 public class VentanaConLayout extends Frame implements ActionListener{
     Button btn;
@@ -18,40 +19,68 @@ public class VentanaConLayout extends Frame implements ActionListener{
     TextArea txt;
 
     public VentanaConLayout(){
-        btn = new Button();
-        btn1 = new Button();
-        btn2 = new Button();
+        btn = new Button("Salir del programa");
+        btn1 = new Button("");
+        btn2 = new Button("");
         btns = new Button[10];
+        
         for (int i=0; i<btns.length; i++){
             btns[i] = new Button(i + "");
             btns[i].addActionListener(this);
         }
+        btn.addActionListener(this);
         p1 = new Panel();
-
-
         p2 = new Panel();
-
-
         p3 = new Panel();
-
-
         p4 = new Panel();
-        this.add(p1, BorderLayout.NORTH);
-        this.add(p2, BorderLayout.SOUTH);
-        this.add(p3, BorderLayout.CENTER);
-        this.add(btn, BorderLayout.WEST);
-        this.add(p4, BorderLayout.EAST);
-        btn1.setBounds(5,5,20,20);
+
         p4.add(btn1);
         p4.add(btn2);
         p4.setSize(200,100);
-        this.setSize(800,200);
-        this.setVisible(true);
-        this.addWindowListener(new WindowAdapter(){
-            
-        }
+        p4.setVisible(true);
 
         txt = new TextArea();
+
+        this.setLayout(new BorderLayout());
+
+        p1.setLayout(new GridLayout(3,2));
+        for (int i=0; i<6;i++){
+            p1.add(btns[i]);
+        }
+
+        p2.setLayout(new FlowLayout());
+        for (int i=6; i<btns.length;i++){
+            p2.add(btns[i]);
+        }
+
+        p3.setLayout(new CardLayout());
+        p3.add(btns[9]);
+        p4.setLayout(null);
+
+        this.add(p1, BorderLayout.NORTH);
+        this.add(p2, BorderLayout.SOUTH);
+        this.add(p3, BorderLayout.CENTER);
+        this.add(p4, BorderLayout.EAST);
+        this.add(btn, BorderLayout.WEST);
+        
+        btn1.setBounds(5, 5, 20, 20);
+        btn2.setBounds(5, 5, 20, 20);
+
+        
+        btn.addActionListener(this);
+        btn1.addActionListener(this);
+        btn2.addActionListener(this);
+        this.setSize(800,200);
+        this.setVisible(true);
+
+
+        this.addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);
+			}
+		});
+
+        //txt = new TextArea();
         this.setLayout(new BorderLayout());
         p1.setLayout(new GridLayout());
         p2.setLayout(new FlowLayout());
@@ -68,7 +97,7 @@ public class VentanaConLayout extends Frame implements ActionListener{
 
     //Metodo para cerra el Frame con la X
     public void CerrarVentana(){
-        addWindowListener(new WindowAdapter(){
+        addWindowListener((WindowListener)new WindowAdapter(){
             public void windowClosing(WindowEvent e){
         
         System.exit(0);
@@ -87,4 +116,3 @@ public class VentanaConLayout extends Frame implements ActionListener{
             }
         }
     }
-}

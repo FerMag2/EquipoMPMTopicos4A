@@ -59,7 +59,7 @@ public class VentanaLayout extends Frame implements ActionListener{
 		p4.add(btn2);
 		p4.add(btn3);
 		p4.setSize(200,100);
-		this.setSize(400,300);
+		this.setSize(400,200);
 		this.setVisible(true);
 		this.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
