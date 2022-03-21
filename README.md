@@ -18,7 +18,8 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Ejercicio 6](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio6)  
 [Ejercicio 6 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/Ejercicio6)    
 [Ejercicio 7](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio7)     
-[Ejercicio 7 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/MiEjercicio7)   
+[Ejercicio 7 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/MiEjercicio7)  
+[Ejercicio 8](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio8)     
 ## Practicas 7244     
 [Practica 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Practica1Magdiel)    
 [Practica 1 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/Calculadora)      
