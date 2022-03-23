@@ -26,7 +26,7 @@ public class Ejercicio5 extends Canvas {
     }
 
     public Ejercicio5(){
-
+        
         x=90;
         y=90;
         w=h=100;

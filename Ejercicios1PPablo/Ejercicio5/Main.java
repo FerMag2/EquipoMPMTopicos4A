@@ -128,7 +128,7 @@ public class Main extends Frame implements MouseListener, MouseMotionListener, K
                 //ej4.repaint();
             break;
         }
-        ej4.setSprite();
+
         ej4.repaint();
     }
 
