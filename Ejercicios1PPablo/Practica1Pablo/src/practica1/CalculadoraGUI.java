@@ -1,6 +1,8 @@
 package practica1;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -61,11 +63,13 @@ public class CalculadoraGUI extends javax.swing.JFrame {
         panelEntrada.setLayout(new java.awt.CardLayout());
 
         display.setEditable(false);
-        display.setBackground(new java.awt.Color(204, 204, 204));
+        display.setBackground(new java.awt.Color(255, 255, 255));
         display.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        display.setForeground(new java.awt.Color(0, 0, 0));
+        display.setForeground(new java.awt.Color(204, 204, 204));
         display.setText("1234567890");
         display.setToolTipText("");
+        display.setCaretColor(new java.awt.Color(255, 255, 255));
+        display.setDisabledTextColor(new java.awt.Color(255, 255, 255));
         display.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 displayActionPerformed(evt);
@@ -263,7 +267,17 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"0");
+            
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"0");
+            }
         }          
     }//GEN-LAST:event_boton_ceroActionPerformed
 
@@ -272,7 +286,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"1");
+           if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+               display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"1");
+            }
         }  
     }//GEN-LAST:event_boton_1ActionPerformed
 
@@ -281,7 +304,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"2");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"2");
+            }
         }  
     }//GEN-LAST:event_boton_2ActionPerformed
 
@@ -290,7 +322,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"3");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"3");
+            }
         }  
     }//GEN-LAST:event_boton_3ActionPerformed
 
@@ -299,7 +340,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"4");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"4");
+            }
         }  
     }//GEN-LAST:event_boton_4ActionPerformed
 
@@ -308,7 +358,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"5");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"5");
+            }
         }  
     }//GEN-LAST:event_boton_5ActionPerformed
 
@@ -317,7 +376,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"6");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"6");
+            }
         }  
     }//GEN-LAST:event_boton_6ActionPerformed
 
@@ -326,7 +394,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"7");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"7");
+            }
         }  
     }//GEN-LAST:event_boton_7ActionPerformed
 
@@ -335,7 +412,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"8");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"8");
+            }
         }  
     }//GEN-LAST:event_boton_8ActionPerformed
 
@@ -344,7 +430,16 @@ public class CalculadoraGUI extends javax.swing.JFrame {
             display.setText("");
         }
         else{
-            display.setText(display.getText()+"9");
+            if(display.getText().length() >= 20 ){
+                
+                JOptionPane.showMessageDialog(null, "Desbordamiento de memoria");
+                display.setText("");
+                
+            }
+            else{
+                display.setForeground(Color.BLACK);
+                display.setText(display.getText()+"8");
+            };
         }  
     }//GEN-LAST:event_boton_9ActionPerformed
 
