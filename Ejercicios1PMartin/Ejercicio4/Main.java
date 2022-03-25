@@ -27,6 +27,7 @@ public class Main extends Frame implements MouseListener, MouseMotionListener, K
         this.add(p, BorderLayout.CENTER);
         this.setSize(500,400);
         this.setVisible(true);
+
     }
 
     public static void main(String args []){
@@ -103,22 +104,22 @@ public class Main extends Frame implements MouseListener, MouseMotionListener, K
         switch (e.getKeyChar()){
             case 'w':
             case KeyEvent.VK_W:
-            mundo.setY(mundo.getY()-1);
+            mundo.setY(mundo.getY()-3);
                 break;
 
             case 's':
             case KeyEvent.VK_S:
-            mundo.setY(mundo.getY()+1);
+            mundo.setY(mundo.getY()+3);
                 break;
             
             case 'a':
             case KeyEvent.VK_A:
-            mundo.setX(mundo.getX()-1);
+            mundo.setX(mundo.getX()-3);
                 break;
             
             case 'd':
             case KeyEvent.VK_D:
-            mundo.setX(mundo.getX()+1);
+            mundo.setX(mundo.getX()+3);
                 break;
         }
         mundo.setSprite();
