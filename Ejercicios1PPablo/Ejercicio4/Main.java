@@ -6,6 +6,9 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+
+import Ejercicio7.Main;
+
 import java.awt.*;
 
 public class Main extends Frame implements MouseMotionListener, MouseListener{

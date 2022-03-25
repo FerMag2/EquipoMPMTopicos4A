@@ -1,4 +1,4 @@
-package Ejercicio4;
+package Ejercicio7;
 
 import java.awt.Canvas;
 import java.awt.Color;

@@ -1,6 +1,7 @@
-package Ejercicio4;
+package Ejercicio7;
 
-import Ejercicio4.Mundo;
+import Ejercicio7.Main;
+import Ejercicio7.Mundo;
 import java.awt.Frame;
 import java.awt.Panel;
 import java.awt.BorderLayout;
