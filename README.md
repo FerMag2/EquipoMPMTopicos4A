@@ -29,11 +29,25 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 2 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/C%23)                
 [Practica 3](https://github.com/FerMag2/MagdielEjercicios/tree/main/Practica3/src)        
 [Practica 3 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/CodigoPractica3)      
-## Ejercicios Martin Fidel Martinez Uc 7253
-### Ejercicio 1
-### Ejercicio 2
-### Ejercicio 3
-### Ejercicio 4
+## Ejercicios y Practicas Martin Fidel Martinez Uc 7253    
+[Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio1)    
+[Ejercicio 1 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/HolaMundo/HolaMundo)    
+[Ejercicio 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio2)    
+[Ejercicio 2 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/MiMundo/MiMundo)    
+[Ejercicio 3](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio3)    
+[Ejercicio 3 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Ejercicio_3/Ejercicio_3)    
+[Ejercicio 4](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio4)    
+[Ejercicio 4 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Ejercicio_4/Ejercicio4)    
+[Ejercicio 5](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio5)    
+[Ejercicio 5 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Ejercicio_5/Ejercicio5)    
+[Ejercicio 6](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio6)    
+[Ejercicio 6 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Ejercicio_6/Ejercicio6)    
+[Ejercicio 7](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio7)    
+[Ejercicio 7 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/MiEjercicio_7/MiEjercicio7)    
+[Practica 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica1Martin)    
+[Practica 1 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica%201%20C%23/Practica1/Practica1)      
+[Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica2Martin)    
+[Practica 2 c#](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica2Martin)    
 ## Ejercicios y Practicas Pablo Jesus Che Martinez 7252 
 [Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Ejercicio1)  
 [Ejercicio 1 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Ejercicio1)      

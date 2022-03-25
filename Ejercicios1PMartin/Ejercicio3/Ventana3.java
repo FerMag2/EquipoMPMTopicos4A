@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Ejercicio3;
 
 import java.awt.*;
 import java.awt.event.ActionListener;
@@ -6,14 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowAdapter;
 
-public class Ventana extends Frame implements ActionListener{
+public class Ventana3 extends Frame implements ActionListener{
     Button aceptar; //btn_aceptar
     TextField text; //txt_text
     Panel central; //pnl_central
     TextArea txt; // txt_resultado
     Button igual; //btn_=
 
-    public Ventana (){
+    public Ventana3 (){
         CerrarVentana();
         aceptar = new Button ("Aceptar");
         igual = new Button ("=");
@@ -56,7 +56,7 @@ public class Ventana extends Frame implements ActionListener{
     
     //Main
     public static void main (String args []){
-        Ventana V = new Ventana();
+        Ventana3 V = new Ventana3();
     }
 
     //Detecta todos los eventos
