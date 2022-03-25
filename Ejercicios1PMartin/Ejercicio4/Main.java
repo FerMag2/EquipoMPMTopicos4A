@@ -1,6 +1,6 @@
 package Ejercicio4;
 
-import Ejercicio4.Mundo;
+//import Ejercicio4.Mundo;
 import java.awt.Frame;
 import java.awt.Panel;
 import java.awt.BorderLayout;
