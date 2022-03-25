@@ -28,7 +28,7 @@ public class Main extends Frame implements MouseMotionListener, MouseListener{
 	}
 	
 	public static void main(String args[]) {
-		Main canvasi= new Main();
+		Main Canvas= new Main();
 	}
 
 	@Override
@@ -74,4 +74,3 @@ public class Main extends Frame implements MouseMotionListener, MouseListener{
 	}
 
 }
-
