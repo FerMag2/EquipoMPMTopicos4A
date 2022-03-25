@@ -70,6 +70,6 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Practica2Pablo)  
 [Practica 2 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Practica2)   
 [Practica 3](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Practica3Pablo)    
-[Practica 3 c#](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Practica3Pablo)         
+[Practica 3 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Practica3)           
 
 
