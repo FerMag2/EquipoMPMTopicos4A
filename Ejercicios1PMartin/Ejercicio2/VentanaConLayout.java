@@ -107,7 +107,5 @@ public class VentanaConLayout extends Frame implements ActionListener{
         else {
             System.out.println(e.getActionCommand());
         }
-        
     }
-
 }
