@@ -6,17 +6,13 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-
-import Ejercicio4.Main;
-
 import java.awt.*;
-
 public class Main extends Frame implements MouseMotionListener, MouseListener{
 	Panel p;
-	Ejercicio4 d;
+	Mundo d;
 	public Main() {
 		p= new Panel();
-		d = new Ejercicio4();
+		d = new Mundo();
 		p.setLayout(new BorderLayout());
 		p.add(d,BorderLayout.CENTER);
 		this.setLayout(new BorderLayout());
@@ -32,7 +28,7 @@ public class Main extends Frame implements MouseMotionListener, MouseListener{
 	}
 	
 	public static void main(String args[]) {
-		Main canvas= new Main();
+		Main canvasi= new Main();
 	}
 
 	@Override
