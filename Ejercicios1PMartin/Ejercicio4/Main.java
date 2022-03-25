@@ -27,7 +27,6 @@ public class Main extends Frame implements MouseListener, MouseMotionListener, K
         this.add(p, BorderLayout.CENTER);
         this.setSize(500,400);
         this.setVisible(true);
-
     }
 
     public static void main(String args []){
