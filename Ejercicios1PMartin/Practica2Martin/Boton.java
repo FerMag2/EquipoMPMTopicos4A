@@ -5,10 +5,10 @@ import javax.swing.JButton;
 import java.awt.Graphics;
 public class Boton extends JButton{
 	private Color fondo, presion;
-	public Boton(String nombre,Color fon, Color pre) {
+	public Boton(String nombre,Color cf, Color cp) {
 		super(nombre);
-		fondo=fon;
-		presion=pre;
+		fondo=cf;
+		presion=cp;
 		setContentAreaFilled(false);
 	}
 	
@@ -28,6 +28,5 @@ protected void paintBorder(Graphics g) {
 	g.setColor(Color.black);
 	g.drawOval(0, 0, getSize().width-1, getSize().height-1);
 	//super.paintBorder(g);
-}
-
+	}
 }

@@ -9,6 +9,7 @@ public class Calculadora extends Frame implements ActionListener{
     Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btnadd, btnsub, btnmul, btndiv, btneq, btnclr;
     Panel p;
     TextField t1;
+
     Font fuente = new Font("Arial", 3, 19);
 
     public Calculadora(){
@@ -97,34 +98,34 @@ public class Calculadora extends Frame implements ActionListener{
         p.add(btn3);
         p.add(btnadd);
         p.add(btn4);
-
-        p.add(btn6);
         p.add(btn5);
+        p.add(btn6);
         p.add(btnsub);
         p.add(btn7);
-
         p.add(btn8);
         p.add(btn9);
         p.add(btndiv);
         p.add(btnmul);
-
         p.add(btn0);
         p.add(btnclr);
         p.add(btneq);
 
         this.add(p,BorderLayout.CENTER);
-        this.setBounds(400, 300, 500, 400);
+        this.setBounds(400, 300, 450, 500);
+
         this.setVisible(true);
         this.setBackground(Color.LIGHT_GRAY);
         this.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                System.exit(0);
-            }
+        
+        @Override
+        public void windowClosing(WindowEvent e) {
+            System.exit(0);
+        }
         });
     }
 
     @Override
+
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==btn0){
             s3 = t1.getText();
