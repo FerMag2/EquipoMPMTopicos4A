@@ -49,7 +49,7 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica1Martin)    
 [Practica 1 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica%201%20C%23/Practica1/Practica1)      
 [Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica2Martin)    
-[Practica 2 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica2/Practica2)      
+[Practica 2 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica2/Practica2)        
 ## Ejercicios y Practicas Pablo Jesus Che Martinez 7252 
 [Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Ejercicio1)  
 [Ejercicio 1 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Ejercicio1)      
