@@ -15,41 +15,34 @@ public class Juego extends Frame implements MouseMotionListener, MouseListener{
 	Button btn2;
 	Button btn3;
 	Button btn4;
-	Button btn5;
 	Boton circulo;
-	Dibujo d;
+	Rombo d;
 	public Juego() {
-		d= new Dibujo();
+		d= new Rombo();
 		d.addMouseListener(this);
 		btn1= new Button("1");
 		btn1.setBackground(Color.cyan);
-		btn1.setBounds(700, 400, 30, 30);
+		btn1.setBounds(660, 440, 25, 25);
 		btn1.addMouseMotionListener(this);
 		btn1.addMouseListener(this);
 		
 		btn2= new Button("2");
 		btn2.setBackground(Color.magenta);
-		btn2.setBounds(720, 450, 30, 30);
+		btn2.setBounds(650, 400, 25, 25);
 		btn2.addMouseMotionListener(this);
 		btn2.addMouseListener(this);
 		
 		btn3= new Button("3");
 		btn3.setBackground(Color.pink);
-		btn3.setBounds(690, 350, 30, 30);
+		btn3.setBounds(700, 370, 25, 25);
 		btn3.addMouseMotionListener(this);
 		btn3.addMouseListener(this);
 		
 		btn4= new Button("4");
 		btn4.setBackground(Color.blue);
-		btn4.setBounds(650, 400, 30, 30);
+		btn4.setBounds(720, 430, 25, 25);
 		btn4.addMouseMotionListener(this);
 		btn4.addMouseListener(this);
-		
-		btn5= new Button("5");
-		btn5.setBackground(Color.lightGray);
-		btn5.setBounds(670, 450, 30, 30);
-		btn5.addMouseMotionListener(this);
-		btn5.addMouseListener(this);
 		
 		circulo= new Boton("Boton",Color.green,Color.red);
 		circulo.setBounds(100, 50, 100, 100);
@@ -57,7 +50,6 @@ public class Juego extends Frame implements MouseMotionListener, MouseListener{
 		this.add(btn2);
 		this.add(btn3);
 		this.add(btn4);
-		this.add(btn5);
 		this.add(circulo);
 		this.add(d);
 		this.setBounds(250, 100, 900, 600);
@@ -93,10 +85,7 @@ public class Juego extends Frame implements MouseMotionListener, MouseListener{
 			validar(btn3);
 		}if(e.getSource()==btn4) {
 			validar(btn4);
-		}if(e.getSource()==btn5) {
-			validar(btn5);
 		}
-		
 	}
 	@Override
 	public void mouseEntered(MouseEvent e) {
@@ -121,18 +110,14 @@ public class Juego extends Frame implements MouseMotionListener, MouseListener{
 		if(e.getSource()==btn4) {
 			mover(e,btn4);
 		}
-		if(e.getSource()==btn5) {
-			mover(e,btn5);
-		}
 	}
+
 	public void mover(MouseEvent g, Button btn) {
 		btn.setLocation(
 		        btn.getX() + g.getX() - btn.getWidth() / 2,
 		        btn.getY() + g.getY() - btn.getHeight() / 2
 		        
 		    );
-		System.out.println("X:"+btn.getX());
-		System.out.println("Y:"+btn.getY());
 	}
 	
 	public void validar(Button btn) {
@@ -146,15 +131,13 @@ public class Juego extends Frame implements MouseMotionListener, MouseListener{
 	}
 	public void regresar(Button btn) {
 		if(btn.equals(btn1)) {
-			btn1.setBounds(700, 400, 30, 30);
+			btn1.setBounds(660, 440, 25, 25);
 		}if(btn.equals(btn2)) {
-			btn2.setBounds(700, 450, 30, 30);
+			btn2.setBounds(650, 400, 25, 25);
 		}if(btn.equals(btn3)) {
-			btn3.setBounds(690, 350, 30, 30);
+			btn3.setBounds(700, 370, 25, 25);
 		}if(btn.equals(btn4)) {
-			btn4.setBounds(650, 400, 30, 30);
-		}if(btn.equals(btn5)) {
-			btn5.setBounds(670, 450, 30, 30);
+			btn4.setBounds(720, 430, 25, 25);
 		}
 		
 	}

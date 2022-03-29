@@ -4,8 +4,8 @@ import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Dibujo extends Canvas{
-	public Dibujo() {
+public class Rombo extends Canvas{
+	public Rombo() {
 
 	}
 	public void paint(Graphics g) {
