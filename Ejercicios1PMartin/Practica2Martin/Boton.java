@@ -27,6 +27,5 @@ protected void paintBorder(Graphics g) {
 	// TODO Auto-generated method stub
 	g.setColor(Color.black);
 	g.drawOval(0, 0, getSize().width-1, getSize().height-1);
-	//super.paintBorder(g);
 	}
 }
