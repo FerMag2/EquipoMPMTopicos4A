@@ -5,8 +5,9 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 ## Pablo Jesus Che Martinez 7252
 # Indice
 ## Proyecto Final Topicos Avanzados de Programacion 
-[Proyecto](https://github.com/PabloCM03/PabloTAP/tree/j/ProyectoFinal)    
-## Ejercicios y Practicas Fernando Magdiel Chi Canul 7244
+[Proyecto Escritorio](https://github.com/PabloCM03/PabloTAP/tree/j/ProyectoFinal)  
+[Proyecto Movil]()  
+## Ejercicios y Practicas Fernando Magdiel Chi Canul 7244 1 Parcial  
 [Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio1)    
 [Ejercicio 1 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/Ventanita)    
 [Ejercicio 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Ejercicio2)      
@@ -28,8 +29,9 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMagdiel/Practica2Magdiel)        
 [Practica 2 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/C%23)                
 [Practica 3](https://github.com/FerMag2/MagdielEjercicios/tree/main/Practica3/src)        
-[Practica 3 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/CodigoPractica3)      
-## Ejercicios y Practicas Martin Fidel Martinez Uc 7253    
+[Practica 3 c#](https://github.com/FerMag2/MagdielEjercicios/tree/main/CodigoPractica3)  
+## Ejercicios y Prácticas Fernando Magdiel Chi Canul 7244 2 Parcial  
+## Ejercicios y Practicas Martin Fidel Martinez Uc 7253 1 Parcial      
 [Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio1)    
 [Ejercicio 1 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/HolaMundo/HolaMundo)    
 [Ejercicio 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Ejercicio2)    
@@ -49,8 +51,9 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica1Martin)    
 [Practica 1 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica%201%20C%23/Practica1/Practica1)      
 [Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PMartin/Practica2Martin)    
-[Practica 2 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica2/Practica2)        
-## Ejercicios y Practicas Pablo Jesus Che Martinez 7252 
+[Practica 2 c#](https://github.com/MartinF-20/Ejercicios_Martin/tree/main/Practica2/Practica2)  
+## Ejercicios y Prácticas Martin Fidel Martínez Uc 7253 2 Parcial  
+## Ejercicios y Practicas Pablo Jesus Che Martinez 7252 1 Parcial   
 [Ejercicio 1](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Ejercicio1)  
 [Ejercicio 1 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Ejercicio1)      
 [Ejercicio 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Ejercicio2)   
@@ -72,6 +75,7 @@ Repositorio donde se agregaran los programas de la clase de topicos y proyectos
 [Practica 2](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Practica2Pablo)  
 [Practica 2 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Practica2)   
 [Practica 3](https://github.com/FerMag2/EquipoMPMTopicos4A/tree/main/Ejercicios1PPablo/Practica3Pablo)    
-[Practica 3 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Practica3)           
+[Practica 3 c#](https://github.com/PabloCM03/PabloTAP/tree/j/Practica3)  
+## Ejercicios y prácticas Pablo Jesus Che Martínez 7252 2 Parcial  
 
 
